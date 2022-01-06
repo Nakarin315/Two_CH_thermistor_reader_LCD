@@ -106,5 +106,5 @@ void loop(){
     lcd.setCursor(0, 1);
     lcd.print("T2:"+ String(T2,1)+"C"); // print a message to the LCD
   }
-  delay(1000); // Delay the display for 1000 ms
+  delay(1000); // Delay the LCD display for 1 second to prevent the screen flickering 
 }
