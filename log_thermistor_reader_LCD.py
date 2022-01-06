@@ -35,7 +35,7 @@ if not any(COM_search):
 print()
 
 t_cycle = int(input('Input measurement cycle time (s): '))
-t_cycle=t_cycle-1;
+t_cycle=t_cycle-1; # 1  second is used as refreashing time of LCD 
 print()
 # Create text file and print header row
 filename = 'thermistor_log_' + dt.now().strftime('%y%d%m_%H%M%S') + '.txt'
